@@ -1,5 +1,5 @@
 {
-    "name": "fenguoz/tron-api",
+    "name": "KfViKuU1VPAk7MMT/tron-api",
     "description": "A PHP API for interacting with Tron (Trx)",
     "license": "MIT",
     "type":   "library",
@@ -21,7 +21,7 @@
         "php": "^7.3|^8.0",
         "fenguoz/data-types": "^1.0",
         "guzzlehttp/guzzle": "^7.2",
-        "fenguoz/web3.php": "^1.0",
+        "kfvikuu1vpak7mmt/web3.php": "^1.0",
         "kornrunner/secp256k1": "^0.2",
         "simplito/elliptic-php": "^1.0",
         "ext-json": "*",
