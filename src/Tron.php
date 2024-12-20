@@ -559,6 +559,23 @@ class Tron implements TronInterface
         ]);
     }
 
+      /**
+     * Query accountresource about an account
+     *
+     * @param $address
+     * @return array
+     * @throws TronException
+     */
+    public function getAccountResource(string $address = null): array
+    {
+        $address = (!is_null($address) ? $this->toHex($address) : $this->address['hex']);
+
+        return $this->manager->request('wallet/getaccountresource', [
+            'address'   =>  $address,
+            'visible' => true
+        ]);
+    }
+
     /**
      * Getting a balance
      *
