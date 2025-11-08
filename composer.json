@@ -18,7 +18,7 @@
     ],
 
     "require": {
-        "php": "^7.3|^8.0",
+        "php": ">=7.0.0",
         "kfvikuu1vpak7mmt/data-types": "^1.0.0",
         "guzzlehttp/guzzle": "^7.2",
         "kfvikuu1vpak7mmt/web3.php": "^1.0.0",
